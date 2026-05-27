@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper]{article}
+
+% ---- Packages ----
+\usepackage{fontspec}
+\setmainfont{TeXGyrePagella}
+\setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{newunicodechar}
+\usepackage{enumitem}
+\usepackage{fvextra}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{url}
+
+% ---- Unicode symbol handling for Palatino text font ----
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Π}{\ensuremath{\Pi}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{→}{\ensuremath{\to}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{−}{-}
+
+% ---- Hyperref setup ----
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue!60!black,
+  pdftitle={$title$},
+  pdfauthor={$author$}
+}
+
+% ---- Pandoc compatibility ----
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlength{\emergencystretch}{3em}
+\setcounter{secnumdepth}{3}
+
+% Better code block wrapping
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,fontsize=\small,commandchars=\\\{\}}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small}
+
+% Longtable tweaks
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.15}
+
+% ---- Document ----
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{-0.55in}
+{\LARGE\bfseries $title$\par}
+\vspace{6pt}
+{\Large $subtitle$\par}
+\vspace{16pt}
+{\large $author$\par}
+\vspace{4pt}
+{\small $affiliation$\par}
+\vspace{12pt}
+{\large $date$\par}
+\end{center}
+
+\vspace{8pt}
+\begin{abstract}
+\small
+\noindent
+$abstract$
+\end{abstract}
+
+\smallskip
+\noindent\textbf{Keywords:} $keywords$
+
+\smallskip
+\noindent\textbf{JEL Codes:} $jelcodes$
+
+\smallskip
+\noindent\textbf{SSRN Classification:} $ssrnclassification$
+
+\smallskip
+\noindent\textbf{Version:} $version$ \quad \textbf{Publication date:} $publicationdate$ \quad \textbf{Companion:} $companion$
+
+\smallskip
+\noindent\textbf{Cite as:} \emph{Who Holds the State? A Framework for Testing Claims After Support Ends}, v1.0, 2026-05-26. Companion registry: \emph{State Claim Registry v0.1}, schema SCR-v0.1.
+
+\newpage
+\setcounter{page}{1}
+\onehalfspacing
+
+$body$
+
+\end{document}

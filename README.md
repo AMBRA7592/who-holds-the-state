@@ -36,7 +36,7 @@ Author: Amadeus Brandes, Independent Researcher, Germany
 
 Cite as:
 
-> Brandes, Amadeus. 2026. *Who Holds the State? A Framework for Testing Claims After Support Ends*. Version 1.0. 2026-05-26.
+> Brandes, Amadeus. 2026. *Who Holds the State? A Framework for Testing Claims After Support Ends*. Version 1.0. 2026-05-26. https://doi.org/10.5281/zenodo.20404429
 
 ## Registry
 
@@ -69,10 +69,8 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 
 ## Links
 
-External links will be added after publication:
-
-- SSRN: TBD
-- SocArXiv / OSF: TBD
-- Zenodo paper DOI: TBD
-- Zenodo registry DOI: TBD
-- GitHub Pages: TBD
+- GitHub Pages: https://ambra7592.github.io/who-holds-the-state/
+- Zenodo (v1.0): https://doi.org/10.5281/zenodo.20404429
+- Zenodo (all versions): https://doi.org/10.5281/zenodo.20404428
+- SSRN: TBD (pending submission)
+- SocArXiv / OSF: TBD (pending submission)

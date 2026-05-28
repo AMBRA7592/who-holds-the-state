@@ -368,6 +368,12 @@ The test of the paper is therefore practical. Can a competent reader take a stat
 
 State is decided at withdrawal, not during use. But the framework is decided by use.
 
+## Disclosures {.unnumbered}
+
+**Data and materials availability.** All materials are available at https://github.com/AMBRA7592/who-holds-the-state and archived at https://doi.org/10.5281/zenodo.20404429.
+
+**Medical scope.** The gene therapy application discusses pricing and durability as a class of state claims. This paper contains no patient-level data, no clinical trial data, no treatment recommendation, and no human-subjects research.
+
 # References {.unnumbered}
 
 Akerlof, George A. 1970. “The Market for ‘Lemons’: Quality Uncertainty and the Market Mechanism.” *The Quarterly Journal of Economics* 84 (3): 488–500.

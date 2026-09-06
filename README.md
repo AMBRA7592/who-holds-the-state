@@ -72,5 +72,3 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 - GitHub Pages: https://ambra7592.github.io/who-holds-the-state/
 - Zenodo (v1.0): https://doi.org/10.5281/zenodo.20433699
 - Zenodo (all versions): https://doi.org/10.5281/zenodo.20404428
-- SSRN: TBD (pending submission)
-- SocArXiv / OSF: TBD (pending submission)
